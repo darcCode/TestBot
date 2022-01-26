@@ -21,13 +21,12 @@ def msg_received_from_group():
   if data['text'].lower() == "hello":
     send_msg("Hello")
 	
-
-  return "ok", 200
-
 if data ['text'].lower() == "who?":
 	send_msg("me")
 	
-return "ok", 200
+  return "ok", 200
+
+	
  
 #Sends a message to the chat that the bot originates from
 def send_msg(msg):
