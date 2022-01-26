@@ -8,7 +8,7 @@ import time
 from flask import Flask, request
 
 #define our flask app
-app = Flask(__name__)
+app = Flask(__Darcy M__)
 
 #Method will automatically execute when our endpoint receives a POST call
 @app.route('/', methods=['POST'])
