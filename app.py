@@ -19,10 +19,10 @@ def msg_received_from_group():
   
   #Check the text of the message sent to the chat to see if it matches our command word
   if data['text'].lower() == "hello":
-    send_msg("Hello")
+    send_msg("whyyyy")
 	
 
-  return "ok", 1
+  return "ok", 200
 
  
 #Sends a message to the chat that the bot originates from
