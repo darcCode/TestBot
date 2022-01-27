@@ -20,7 +20,8 @@ def msg_received_from_group():
   #Check the text of the message sent to the chat to see if it matches our command word
  if data['text'].lower() == "!test":
     send_msg("Hello")
-
+elif data ['text'].lower() == "!name":
+	send_msg("Hello " + data ['name']")
 	
   return "ok", 200
 
